@@ -1,1 +1,1 @@
-{"cmd":"qm_mols['hso2']\n\ndf = pd.DataFrame(data=[qm_mols])\ndf.T.to_csv(\"62_ftab_beta_dhf.csv\")\n","cmd_opts":" --cell_id=SHxod52WFE -s","import_complete":1,"terminal":"tmux"}
+{"cmd":"df = pd.DataFrame(data=[qm_mols])\ndf.T.to_csv(csv / \"62_ftab_beta_dhf.csv\")","cmd_opts":" --cell_id=SHxod52WFE -s","import_complete":1,"terminal":"tmux"}

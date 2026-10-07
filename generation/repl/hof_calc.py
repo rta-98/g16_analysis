@@ -2,8 +2,11 @@ from pathlib import Path
 import cclib 
 import pandas as pd
 from cclib.parser.utils import convertor
+import os 
 #|%%--%%| <gJ5NIBVJAv|a7jdvMErnr>
-storage = Path("/home/yang/projects/62_ftab/data/storage/")
+base = Path.cwd() 
+storage = base.parent / "./storage" 
+storage
 logs_dir = storage / "./log" 
 h_kcal = 627.5
 #|%%--%%| <a7jdvMErnr|GglzriCACQ>
